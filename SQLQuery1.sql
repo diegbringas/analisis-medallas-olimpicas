@@ -1,47 +1,29 @@
-<<<<<<< HEAD
-2. Top 5 de ranking de atletas con mas medallas (hasta el ranking 5)
-
-
-with t1 as 
-(select name,COUNT(1) as total_medals
-from OlympicsKaggle..athlete_events$
-where Medal= 'Gold'
-group by name),
-t2 as	
-(select *, dense_rank() over(order by total_medals desc) as rnk
-from t1)
-select *
-from t2
-where rnk <=5;
-=======
+--1. Averiguar que deportes fueron jugados siempre en las Olimpiadas de verano
 SELECT * 
 FROM OlympicsKaggle..athlete_events$;
-
-1. encontrar el numero total de juegos en las olimpiadas
-2. encontrar para cada deporte, cuantos juegos hubieron
-3. COMPARAR AMBOS, DEFINIR CUAL FUE EL DEPORTE 
-QUE SE JUGO EN TODAS LAS OLIMPIADAS DE VERANO.
-
+--1. encontrar el numero total de juegos en las olimpiadas
 WITH t1 AS (
     SELECT COUNT(DISTINCT Games) AS TotalSummerGames
     FROM OlympicsKaggle..athlete_events$
     WHERE Season = 'Summer'
-),
+)
+,
+--2. encontrar el numero total de participacione en Olympics
 t2 AS (
-    SELECT Sport, COUNT(DISTINCT Games) AS TotalGamesPerSport
+    SELECT Sport, COUNT(DISTINCT Games) AS TotalOlympicsPerSport
     FROM OlympicsKaggle..athlete_events$
     WHERE Season = 'Summer'
     GROUP BY Sport
 )
+--3. Comparar resultados y ver que deportes cumplen la premisa
 SELECT 
-    t1.TotalSummerGames,
     t2.Sport,
-    t2.TotalGamesPerSport
+	t1.TotalSummerGames,
+    t2.TotalOlympicsPerSport
 FROM t1
-JOIN t2 ON t1.TotalSummerGames = t2.TotalGamesPerSport;
+JOIN t2 ON t1.TotalSummerGames = t2.TotalOlympicsPerSport;
 
 
 
 
 
->>>>>>> b6e5643126193c4321129c4809141be2de8b3c1d
