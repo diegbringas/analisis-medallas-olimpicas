@@ -2,10 +2,11 @@
 
 Este proyecto utiliza el dataset 120 Years of Olympic History: Athletes and Results disponible en Kaggle para realizar un análisis detallado de las medallas olímpicas a lo largo de la historia. El objetivo es demostrar mis habilidades en el manejo de SQL para análisis y consultas avanzadas de datos.
 
-###Descripción del Dataset
+<h2><u>Descripcion del dataset</u></h2>
+
 El dataset contiene datos históricos de los Juegos Olímpicos desde 1896 hasta 2016, incluyendo información sobre atletas, eventos, medallas y países participantes.
 
-Columnas principales:
+<h2><u>Columnas Principales</u></h2>
 
 ID: Identificador único del atleta.
 Name: Nombre del atleta.
@@ -18,7 +19,8 @@ NOC: Código del Comité Olímpico Nacional.
 Games: Año y estación de los Juegos (e.g., 2000 Summer).
 Medal: Tipo de medalla obtenida (Gold, Silver, Bronze).
 
-##Consultas Realizadas
+<h2><u>Consultas realizadas</u></h2>
+
 Se llevaron a cabo cuatro consultas para analizar los datos y responder preguntas clave:
 
 1. Averiguar que deportes fueron jugados siempre en las Olimpiadas de verano
@@ -34,11 +36,11 @@ Se llevaron a cabo cuatro consultas para analizar los datos y responder pregunta
 
 <img width="368" alt="olim4" src="https://github.com/user-attachments/assets/04dbb111-c021-46ba-82d2-15d8e7598eb8">
 
-##Tecnologías Utilizadas
+<h2><u>Tecnologias Utilizadas</u></h2>
 SQL Server Management Studio (SSMS): Para escribir y ejecutar las consultas SQL.
 Git: Para el control de versiones y subir el proyecto a GitHub.
 Kaggle: Para la obtención del dataset.
-##Cómo Ejecutar las Consultas
+<h2><u>Como ejecutar las consultas</u></h2>
 Descarga el dataset desde Kaggle: 120 Years of Olympic History. : https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results
 Importa los datos en tu base de datos SQL Server.
 Ejecuta las consultas en los archivos SQL incluidos en este repositorio:
