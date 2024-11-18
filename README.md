@@ -37,10 +37,17 @@ Se llevaron a cabo cuatro consultas para analizar los datos y responder pregunta
 <img width="368" alt="olim4" src="https://github.com/user-attachments/assets/04dbb111-c021-46ba-82d2-15d8e7598eb8">
 
 <h2><u>Tecnologias Utilizadas</u></h2>
-SQL Server Management Studio (SSMS): Para escribir y ejecutar las consultas SQL.
-Git: Para el control de versiones y subir el proyecto a GitHub.
+
+SQL Server Management Studio (SSMS): Para escribir y ejecutar las consultas SQL. 
+
+Git: Para el control de versiones y subir el proyecto a GitHub. 
+
 Kaggle: Para la obtención del dataset.
+
 <h2><u>Como ejecutar las consultas</u></h2>
+
 Descarga el dataset desde Kaggle: 120 Years of Olympic History. : https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results
+
 Importa los datos en tu base de datos SQL Server.
+
 Ejecuta las consultas en los archivos SQL incluidos en este repositorio:
