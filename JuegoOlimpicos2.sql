@@ -7,7 +7,7 @@ from OlympicsKaggle..athlete_events$
 where Medal= 'Gold'
 group by name),
 t2 as	
-(select *, dense_rank() over(order by total_medals desc) as rnk
+(select *, dense_rank() over(order by total_medals desc) as rnk   --el dense rank ayuda a mostrar los resultados de rank sin saltarse los numeros.
 from t1)
 select *
 from t2
