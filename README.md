@@ -9,14 +9,23 @@ El dataset contiene datos históricos de los Juegos Olímpicos desde 1896 hasta 
 <h2><u>Columnas Principales</u></h2>
 
 ID: Identificador único del atleta.
+
 Name: Nombre del atleta.
+
 Sex: Género del atleta.
+
 Age: Edad del atleta en el momento de la competición.
+
 Height: Altura del atleta (en cm).
+
 Weight: Peso del atleta (en kg).
+
 Team: Equipo o país representado.
+
 NOC: Código del Comité Olímpico Nacional.
+
 Games: Año y estación de los Juegos (e.g., 2000 Summer).
+
 Medal: Tipo de medalla obtenida (Gold, Silver, Bronze).
 
 <h2><u>Consultas realizadas</u></h2>
