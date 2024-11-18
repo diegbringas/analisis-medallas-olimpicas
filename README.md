@@ -1,8 +1,8 @@
-##Análisis de Medallas Olímpicas - SQL
+###Análisis de Medallas Olímpicas - SQL
 
 Este proyecto utiliza el dataset 120 Years of Olympic History: Athletes and Results disponible en Kaggle para realizar un análisis detallado de las medallas olímpicas a lo largo de la historia. El objetivo es demostrar mis habilidades en el manejo de SQL para análisis y consultas avanzadas de datos.
 
-##Descripción del Dataset
+###Descripción del Dataset
 El dataset contiene datos históricos de los Juegos Olímpicos desde 1896 hasta 2016, incluyendo información sobre atletas, eventos, medallas y países participantes.
 
 Columnas principales:
