@@ -1,4 +1,44 @@
-<img width="368" alt="olim4" src="https://github.com/user-attachments/assets/2836b1a2-6e8f-4277-afaf-882ccc1dac75">
-<img width="294" alt="olim3" src="https://github.com/user-attachments/assets/27f73fd7-4bbc-4d22-990f-717945edbcd4">
-<img width="438" alt="olim2" src="https://github.com/user-attachments/assets/0e311161-302f-43a7-804a-8eba50a8a266">
-<img width="424" alt="olim1" src="https://github.com/user-attachments/assets/9fcdc17d-d709-4fde-84f7-2bf2986f1f84">
+##Análisis de Medallas Olímpicas - SQL
+
+Este proyecto utiliza el dataset 120 Years of Olympic History: Athletes and Results disponible en Kaggle para realizar un análisis detallado de las medallas olímpicas a lo largo de la historia. El objetivo es demostrar mis habilidades en el manejo de SQL para análisis y consultas avanzadas de datos.
+
+##Descripción del Dataset
+El dataset contiene datos históricos de los Juegos Olímpicos desde 1896 hasta 2016, incluyendo información sobre atletas, eventos, medallas y países participantes.
+
+Columnas principales:
+
+ID: Identificador único del atleta.
+Name: Nombre del atleta.
+Sex: Género del atleta.
+Age: Edad del atleta en el momento de la competición.
+Height: Altura del atleta (en cm).
+Weight: Peso del atleta (en kg).
+Team: Equipo o país representado.
+NOC: Código del Comité Olímpico Nacional.
+Games: Año y estación de los Juegos (e.g., 2000 Summer).
+Medal: Tipo de medalla obtenida (Gold, Silver, Bronze).
+
+##Consultas Realizadas
+Se llevaron a cabo cuatro consultas para analizar los datos y responder preguntas clave:
+
+1. Averiguar que deportes fueron jugados siempre en las Olimpiadas de verano
+<img width="424" alt="olim1" src="https://github.com/user-attachments/assets/154e75e7-38af-43e1-89f0-a9a685d2349b">
+
+2. Top 5 de ranking de atletas con mas medallas (hasta el ranking 5)
+<img width="438" alt="olim2" src="https://github.com/user-attachments/assets/3b5a8e07-070f-4c4c-a07a-3db99c35f778">
+
+3. Averiguar el total de medallas de oro, plata y bronce ganado por cada pais en las Olimpiadas.
+<img width="294" alt="olim3" src="https://github.com/user-attachments/assets/bae7cb23-ea05-46c3-aca9-146931d7a612">
+
+4. Averiguar que pais gano la mayor cantidad de medallas de oro, plata y bronce durante cada Juego Olimpico
+
+<img width="368" alt="olim4" src="https://github.com/user-attachments/assets/04dbb111-c021-46ba-82d2-15d8e7598eb8">
+
+##Tecnologías Utilizadas
+SQL Server Management Studio (SSMS): Para escribir y ejecutar las consultas SQL.
+Git: Para el control de versiones y subir el proyecto a GitHub.
+Kaggle: Para la obtención del dataset.
+##Cómo Ejecutar las Consultas
+Descarga el dataset desde Kaggle: 120 Years of Olympic History. : https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results
+Importa los datos en tu base de datos SQL Server.
+Ejecuta las consultas en los archivos SQL incluidos en este repositorio:
